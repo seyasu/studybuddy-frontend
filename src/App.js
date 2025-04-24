@@ -13,7 +13,7 @@ export default function App() {
   const [feedback, setFeedback] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const backendUrl = 'https://your-backend-url.onrender.com'; // replace this
+  const backendUrl = 'https://studybuddy-backend-3ewd.onrender.com'; // replace this
 
   const detectChapters = async () => {
     setLoading(true);
